@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Space+Grotesk:wght@400;600;700&display=swap');
+
+:root{
+  --bg: #0a0a0f;
+  --accent-purple: #9D4EDD;
+  --accent-blue: #00B4D8;
+}
+
+html,body,#root{
+  height:100%;
+}
+
+body{
+  background: var(--bg);
+  color: white;
+  font-family: 'Poppins', system-ui, sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
